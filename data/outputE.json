@@ -1,0 +1,32 @@
+[
+    {
+        "src": "images/players/24.png",
+        "title": "繁星所見的帕珮峨塔",
+        "url": "pieces/繁星所見的帕珮峨塔.html",
+        "order": 1.0
+    },
+    {
+        "src": "images/players/09.png",
+        "title": "冒險結束就是總結",
+        "url": "pieces/冒險結束就是總結.html",
+        "order": 2.0
+    },
+    {
+        "src": "images/players/05.png",
+        "title": "你好，請問你對人偶有興趣嗎？可以免費試課哦",
+        "url": "pieces/你好，請問你對人偶有興趣嗎？可以免費試課哦.html",
+        "order": 3.0
+    },
+    {
+        "src": "images/players/18.png",
+        "title": "帕珮峨塔花枝求學錄",
+        "url": "pieces/帕珮峨塔花枝求學錄.html",
+        "order": 4.0
+    },
+    {
+        "src": "images/players/06.png",
+        "title": "告途",
+        "url": "pieces/告途.html",
+        "order": 5.0
+    }
+]

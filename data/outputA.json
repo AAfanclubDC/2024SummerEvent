@@ -1,0 +1,32 @@
+[
+    {
+        "src": "images/players/08.png",
+        "title": "異世界爭霸-Fate Crystal EXTELLA",
+        "url": "pieces/異世界爭霸-Fate Crystal EXTELLA.html",
+        "order": 1.0
+    },
+    {
+        "src": "images/players/04.png",
+        "title": "蕉蕉的奇妙晶原之旅",
+        "url": "pieces/蕉蕉的奇妙晶原之旅.html",
+        "order": 2.0
+    },
+    {
+        "src": "images/players/07.png",
+        "title": "在晶原上小镇上拓荒的那些日子",
+        "url": "pieces/在晶原上小镇上拓荒的那些日子.html",
+        "order": 3.0
+    },
+    {
+        "src": "images/players/01.png",
+        "title": "妖猩崛起",
+        "url": "pieces/妖猩崛起.html",
+        "order": 4.0
+    },
+    {
+        "src": "images/players/14.png",
+        "title": "晶原歸途",
+        "url": "pieces/晶原歸途.html",
+        "order": 5.0
+    }
+]

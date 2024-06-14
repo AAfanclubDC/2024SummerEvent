@@ -1,0 +1,26 @@
+[
+    {
+        "src": "images/players/28.png",
+        "title": "很久以前，森林裡",
+        "url": "pieces/很久以前，森林裡.html",
+        "order": 1.0
+    },
+    {
+        "src": "images/players/25.png",
+        "title": "兄妹和森林的故事",
+        "url": "pieces/兄妹和森林的故事.html",
+        "order": 5.0
+    },
+    {
+        "src": "images/players/13.png",
+        "title": "獅子草領殺人事件",
+        "url": "pieces/獅子草領殺人事件.html",
+        "order": 7.0
+    },
+    {
+        "src": "images/players/21.png",
+        "title": "灾厄少女小圆",
+        "url": "pieces/灾厄少女小圆.html",
+        "order": 7.0
+    }
+]
