@@ -74,7 +74,7 @@
 				<li><a href="GroupC.html">C組</a></li>
 				<li><a href="GroupD.html">D組</a></li>
 				<li><a href="GroupE.html">E組</a></li>
-				<li><a href="GroupF.html">F組</a></li>				
+				<li><a href="GroupF.html">F組</a></li>
 			</ul>
 
 		</nav>
@@ -117,47 +117,52 @@
 			h2.appendChild(aTitle);
 			header.appendChild(h2);
 			article.appendChild(header);
-
 			info = [
 				{
-					"src": "images/players/08.png",
-					"title": "A組",
-					"url": "link1.html"
-				},
-				{
 					"src": "images/players/11.png",
-					"title": "B組",
-					"url": "link2.html"
+					"title": "乐土",
+					"url": "pieces/乐土.html",
+					"order": 1.0
 				},
 				{
-					"src": "images/players/19.png",
-					"title": "C組",
-					"url": "link2.html"
+					"src": "images/players/03.png",
+					"title": "你与我的异世界",
+					"url": "pieces/你与我的异世界.html",
+					"order": 2.0
 				},
 				{
-					"src": "images/players/13.png",
-					"title": "D組",
-					"url": "link2.html"
+					"src": "images/players/12.png",
+					"title": "群峰是否哭泣",
+					"url": "pieces/群峰是否哭泣.html",
+					"order": 3.0
 				},
 				{
-					"src": "images/players/09.png",
-					"title": "E組",
-					"url": "link2.html"
+					"src": "images/players/31.png",
+					"title": "歸還者",
+					"url": "pieces/歸還者.html",
+					"order": 4.0
 				},
 				{
-					"src": "images/players/10.png",
-					"title": "F組",
-					"url": "link2.html"
+					"src": "images/players/23.png",
+					"title": "星之賢者復國記I",
+					"url": "pieces/星之賢者復國記I.html",
+					"order": 5.0
 				},
-			]
+				{
+					"src": "images/players/29.png",
+					"title": "番外四格",
+					"url": "pieces/番外四格.html",
+					"order": 6.0
+				}
+			];
 			info.forEach(player => {
-            const button = generateButton(player.src, player.title, player.url);
-            article.appendChild(button);
-        });
+				const button = generateButton(player.src, player.title, player.url);
+				article.appendChild(button);
+			});
 			document.getElementById('content').appendChild(article);
 
 		}</script>
-		<script>generateGuild();</script>
+	<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 

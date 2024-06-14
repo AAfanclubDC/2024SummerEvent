@@ -74,7 +74,7 @@
 				<li><a href="GroupC.html">C組</a></li>
 				<li><a href="GroupD.html">D組</a></li>
 				<li><a href="GroupE.html">E組</a></li>
-				<li><a href="GroupF.html">F組</a></li>				
+				<li><a href="GroupF.html">F組</a></li>
 			</ul>
 
 		</nav>
@@ -117,47 +117,46 @@
 			h2.appendChild(aTitle);
 			header.appendChild(h2);
 			article.appendChild(header);
-
 			info = [
 				{
 					"src": "images/players/08.png",
-					"title": "A組",
-					"url": "link1.html"
+					"title": "異世界爭霸-Fate Crystal EXTELLA",
+					"url": "pieces/異世界爭霸-Fate Crystal EXTELLA.html",
+					"order": 1.0
 				},
 				{
-					"src": "images/players/11.png",
-					"title": "B組",
-					"url": "link2.html"
+					"src": "images/players/04.png",
+					"title": "蕉蕉的奇妙晶原之旅",
+					"url": "pieces/蕉蕉的奇妙晶原之旅.html",
+					"order": 2.0
 				},
 				{
-					"src": "images/players/19.png",
-					"title": "C組",
-					"url": "link2.html"
+					"src": "images/players/07.png",
+					"title": "在晶原上小镇上拓荒的那些日子",
+					"url": "pieces/在晶原上小镇上拓荒的那些日子.html",
+					"order": 3.0
 				},
 				{
-					"src": "images/players/13.png",
-					"title": "D組",
-					"url": "link2.html"
+					"src": "images/players/01.png",
+					"title": "妖猩崛起",
+					"url": "pieces/妖猩崛起.html",
+					"order": 4.0
 				},
 				{
-					"src": "images/players/09.png",
-					"title": "E組",
-					"url": "link2.html"
-				},
-				{
-					"src": "images/players/10.png",
-					"title": "F組",
-					"url": "link2.html"
-				},
-			]
+					"src": "images/players/14.png",
+					"title": "晶原歸途",
+					"url": "pieces/晶原歸途.html",
+					"order": 5.0
+				}
+			];
 			info.forEach(player => {
-            const button = generateButton(player.src, player.title, player.url);
-            article.appendChild(button);
-        });
+				const button = generateButton(player.src, player.title, player.url);
+				article.appendChild(button);
+			});
 			document.getElementById('content').appendChild(article);
 
 		}</script>
-		<script>generateGuild();</script>
+	<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 

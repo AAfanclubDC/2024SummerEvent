@@ -74,7 +74,7 @@
 				<li class="current"><a href="GroupC.html">C組</a></li>
 				<li><a href="GroupD.html">D組</a></li>
 				<li><a href="GroupE.html">E組</a></li>
-				<li><a href="GroupF.html">F組</a></li>				
+				<li><a href="GroupF.html">F組</a></li>
 			</ul>
 
 		</nav>
@@ -117,47 +117,46 @@
 			h2.appendChild(aTitle);
 			header.appendChild(h2);
 			article.appendChild(header);
-
 			info = [
 				{
-					"src": "images/players/08.png",
-					"title": "A組",
-					"url": "link1.html"
+					"src": "images/players/02.png",
+					"title": "为了将旅途如睡前小故事般讲出",
+					"url": "pieces/为了将旅途如睡前小故事般讲出.html",
+					"order": 1.0
 				},
 				{
-					"src": "images/players/11.png",
-					"title": "B組",
-					"url": "link2.html"
+					"src": "images/players/15.png",
+					"title": "助手小姐睜開了眼睛",
+					"url": "pieces/助手小姐睜開了眼睛.html",
+					"order": 2.0
 				},
 				{
 					"src": "images/players/19.png",
-					"title": "C組",
-					"url": "link2.html"
+					"title": "夢想之王",
+					"url": "pieces/夢想之王.html",
+					"order": 3.0
 				},
 				{
-					"src": "images/players/13.png",
-					"title": "D組",
-					"url": "link2.html"
+					"src": "images/players/26.png",
+					"title": "希望峰劇團",
+					"url": "pieces/希望峰劇團.html",
+					"order": 4.0
 				},
 				{
-					"src": "images/players/09.png",
-					"title": "E組",
-					"url": "link2.html"
-				},
-				{
-					"src": "images/players/10.png",
-					"title": "F組",
-					"url": "link2.html"
-				},
-			]
+					"src": "images/players/27.png",
+					"title": "破而後鴿",
+					"url": "pieces/破而後鴿.html",
+					"order": 5.0
+				}
+			];
 			info.forEach(player => {
-            const button = generateButton(player.src, player.title, player.url);
-            article.appendChild(button);
-        });
+				const button = generateButton(player.src, player.title, player.url);
+				article.appendChild(button);
+			});
 			document.getElementById('content').appendChild(article);
 
 		}</script>
-		<script>generateGuild();</script>
+	<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 

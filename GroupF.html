@@ -74,7 +74,7 @@
 				<li><a href="GroupC.html">C組</a></li>
 				<li><a href="GroupD.html">D組</a></li>
 				<li><a href="GroupE.html">E組</a></li>
-				<li class="current"><a href="GroupF.html">F組</a></li>				
+				<li class="current"><a href="GroupF.html">F組</a></li>
 			</ul>
 
 		</nav>
@@ -120,44 +120,44 @@
 
 			info = [
 				{
-					"src": "images/players/08.png",
-					"title": "A組",
-					"url": "link1.html"
+					"src": "images/players/30.png",
+					"title": "亞寧姆史菲亞的遠征",
+					"url": "pieces/亞寧姆史菲亞的遠征.html",
+					"order": 1.0
 				},
 				{
-					"src": "images/players/11.png",
-					"title": "B組",
-					"url": "link2.html"
+					"src": "images/players/17.png",
+					"title": "獻給特雷艾斯的挽歌",
+					"url": "pieces/獻給特雷艾斯的挽歌.html",
+					"order": 2.0
 				},
 				{
-					"src": "images/players/19.png",
-					"title": "C組",
-					"url": "link2.html"
-				},
-				{
-					"src": "images/players/13.png",
-					"title": "D組",
-					"url": "link2.html"
-				},
-				{
-					"src": "images/players/09.png",
-					"title": "E組",
-					"url": "link2.html"
+					"src": "images/players/20.png",
+					"title": "巴爾扎·七九的假期",
+					"url": "pieces/巴爾扎·七九的假期.html",
+					"order": 3.0
 				},
 				{
 					"src": "images/players/10.png",
-					"title": "F組",
-					"url": "link2.html"
+					"title": "特雷艾斯的追求之聲",
+					"url": "pieces/特雷艾斯的追求之聲.html",
+					"order": 4.0
 				},
-			]
+				{
+					"src": "images/players/16.png",
+					"title": "特雷艾斯圖鑑",
+					"url": "pieces/特雷艾斯圖鑑.html",
+					"order": 5.0
+				}
+			];
 			info.forEach(player => {
-            const button = generateButton(player.src, player.title, player.url);
-            article.appendChild(button);
-        });
+				const button = generateButton(player.src, player.title, player.url);
+				article.appendChild(button);
+			});
 			document.getElementById('content').appendChild(article);
 
 		}</script>
-		<script>generateGuild();</script>
+	<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 

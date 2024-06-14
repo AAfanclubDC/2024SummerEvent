@@ -74,7 +74,7 @@
 				<li><a href="GroupC.html">C組</a></li>
 				<li class="current"><a href="GroupD.html">D組</a></li>
 				<li><a href="GroupE.html">E組</a></li>
-				<li><a href="GroupF.html">F組</a></li>				
+				<li><a href="GroupF.html">F組</a></li>
 			</ul>
 
 		</nav>
@@ -120,44 +120,38 @@
 
 			info = [
 				{
-					"src": "images/players/08.png",
-					"title": "A組",
-					"url": "link1.html"
+					"src": "images/players/28.png",
+					"title": "很久以前，森林裡",
+					"url": "pieces/很久以前，森林裡.html",
+					"order": 1.0
 				},
 				{
-					"src": "images/players/11.png",
-					"title": "B組",
-					"url": "link2.html"
-				},
-				{
-					"src": "images/players/19.png",
-					"title": "C組",
-					"url": "link2.html"
+					"src": "images/players/25.png",
+					"title": "兄妹和森林的故事",
+					"url": "pieces/兄妹和森林的故事.html",
+					"order": 5.0
 				},
 				{
 					"src": "images/players/13.png",
-					"title": "D組",
-					"url": "link2.html"
+					"title": "獅子草領殺人事件",
+					"url": "pieces/獅子草領殺人事件.html",
+					"order": 7.0
 				},
 				{
-					"src": "images/players/09.png",
-					"title": "E組",
-					"url": "link2.html"
-				},
-				{
-					"src": "images/players/10.png",
-					"title": "F組",
-					"url": "link2.html"
-				},
-			]
+					"src": "images/players/21.png",
+					"title": "灾厄少女小圆",
+					"url": "pieces/灾厄少女小圆.html",
+					"order": 7.0
+				}
+			];
 			info.forEach(player => {
-            const button = generateButton(player.src, player.title, player.url);
-            article.appendChild(button);
-        });
+				const button = generateButton(player.src, player.title, player.url);
+				article.appendChild(button);
+			});
 			document.getElementById('content').appendChild(article);
 
 		}</script>
-		<script>generateGuild();</script>
+	<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 
