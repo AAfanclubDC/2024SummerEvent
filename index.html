@@ -56,9 +56,6 @@
 				例如建設經過、領地上的戰爭、醜聞，等等。形式與篇幅不限。
 
 			</p>
-			<p>
-				<a>活動首頁施工中</a>
-			</p>
 		</article>
 	</div>
 	</div>
@@ -72,9 +69,12 @@
 		<nav id="nav">
 			<ul>
 				<li class="current"><a onClick="window.location.href='/'">首頁</a></li>
-				<li><a href="/Take-over-Matsuri">2024－AA接盤祭</a></li>
-				<li><a href="#">2024－異世界建設爭霸賽</a></li>
-				<li><a href="/AutoCutImg/">AA工具－長圖自動分割(施工中)</a></li>
+				<li><a href="/GroupA.html">A組</a></li>
+				<li><a href="/GroupB.html">B組</a></li>
+				<li><a href="/GroupC.html">C組</a></li>
+				<li><a href="/GroupD.html">D組</a></li>
+				<li><a href="/GroupE.html">E組</a></li>
+				<li><a href="/GroupF.html">F組</a></li>				
 			</ul>
 
 		</nav>
@@ -88,7 +88,7 @@
 						href="http://html5up.net/">HTML5 UP</a>
 				</p>
 			</div>
-			<script>generateButton("123", "title" , "url");</script>
+
 		</section>
 
 		<!-- Copyright -->
@@ -105,6 +105,59 @@
 	<script src="/assets/js/breakpoints.min.js"></script>
 	<script src="/assets/js/util.js"></script>
 	<script src="/assets/js/main.js"></script>
+	<script>function generateGuild() {
+			var article = document.createElement('article');
+			article.id = "PartyB";
+			article.className = 'box post post-excerpt';
+			// 創建header並設置標題
+			const header = document.createElement('header');
+			const h2 = document.createElement('h2');
+			const aTitle = document.createElement('a');
+			aTitle.textContent = "組別一覽";
+			h2.appendChild(aTitle);
+			header.appendChild(h2);
+			article.appendChild(header);
+
+			info = [
+				{
+					"src": "images/players/08.png",
+					"title": "A組",
+					"url": "link1.html"
+				},
+				{
+					"src": "images/players/11.png",
+					"title": "B組",
+					"url": "link2.html"
+				},
+				{
+					"src": "images/players/19.png",
+					"title": "C組",
+					"url": "link2.html"
+				},
+				{
+					"src": "images/players/13.png",
+					"title": "D組",
+					"url": "link2.html"
+				},
+				{
+					"src": "images/players/09.png",
+					"title": "E組",
+					"url": "link2.html"
+				},
+				{
+					"src": "images/players/10.png",
+					"title": "F組",
+					"url": "link2.html"
+				},
+			]
+			info.forEach(player => {
+            const button = generateButton(player.src, player.title, player.url);
+            article.appendChild(button);
+        });
+			document.getElementById('content').appendChild(article);
+
+		}</script>
+		<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 
