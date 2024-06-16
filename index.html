@@ -74,7 +74,7 @@
 				<li><a href="/2024SummerEvent/GroupC.html">C組</a></li>
 				<li><a href="/2024SummerEvent/GroupD.html">D組</a></li>
 				<li><a href="/2024SummerEvent/GroupE.html">E組</a></li>
-				<li><a href="/2024SummerEvent/GroupF.html">F組</a></li>				
+				<li><a href="/2024SummerEvent/GroupF.html">F組</a></li>
 			</ul>
 
 		</nav>
@@ -150,14 +150,21 @@
 					"url": "GroupF.html"
 				},
 			]
+			function getRandomData(data) {
+				let randomIndex = Math.floor(Math.random() * data.length);
+				return data[randomIndex];
+			}
+			player = getRandomData(info);
+			const button = generateButton("images/main.png", "隨機推薦: ", player.url);
+			article.appendChild(button);
 			info.forEach(player => {
-            const button = generateButton(player.src, player.title, player.url);
-            article.appendChild(button);
-        });
+				const button = generateButton(player.src, player.title, player.url);
+				article.appendChild(button);
+			});
 			document.getElementById('content').appendChild(article);
 
 		}</script>
-		<script>generateGuild();</script>
+	<script>generateGuild();</script>
 	<!-- <script>loadTitleInfo();</script> -->
 </body>
 
